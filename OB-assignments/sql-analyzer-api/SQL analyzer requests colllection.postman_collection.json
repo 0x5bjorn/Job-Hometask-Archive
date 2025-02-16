@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "7f86adf5-48ec-433a-9bff-50a4dae35a3f",
+		"name": "SQL analyzer requests colllection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21213725"
+	},
+	"item": [
+		{
+			"name": "POST sql expression (select)",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "select distinct top 5 min(mintest), max(maxtest) as maxt, t.t_partyid as id, t2.t_name1, t.t_shortname as Name from dparty_dbt t join dpersn_dbt t2 on t2.t_personid = t.t_partyid where t.t_partyid = 77",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/sqlcolumns",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sqlcolumns"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST sql expression (update)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;"
+				},
+				"url": {
+					"raw": "http://localhost:8080/sqlcolumns",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sqlcolumns"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST sql expression (insert)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country) VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');"
+				},
+				"url": {
+					"raw": "http://localhost:8080/sqlcolumns",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sqlcolumns"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

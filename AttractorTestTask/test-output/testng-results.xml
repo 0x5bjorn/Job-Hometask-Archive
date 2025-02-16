@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T17:08:37Z" name="Default suite" finished-at="2022-02-11T17:08:54Z" duration-ms="17071">
+    <groups>
+    </groups>
+    <test started-at="2022-02-11T17:08:37Z" name="Default test" finished-at="2022-02-11T17:08:54Z" duration-ms="17071">
+      <class name="dropdownpackage.DropdownTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:dropdownpackage.DropdownTest@3f191845]" started-at="2022-02-11T23:08:37Z" name="setDriver" finished-at="2022-02-11T23:08:40Z" duration-ms="3415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:filedownloadpackage.FileDownloadTest@5f049ea1]" started-at="2022-02-11T23:08:40Z" name="setDriver" finished-at="2022-02-11T23:08:42Z" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:formauthenticationpackage.FormAuthenticationTest@cb0755b]" started-at="2022-02-11T23:08:42Z" name="setDriver" finished-at="2022-02-11T23:08:45Z" duration-ms="2940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:keypressespackage.KeyPressesTest@72cc7e6f]" started-at="2022-02-11T23:08:45Z" name="setDriver" finished-at="2022-02-11T23:08:49Z" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyDropdown()[pri:0, instance:dropdownpackage.DropdownTest@3f191845]" started-at="2022-02-11T23:08:49Z" name="verifyDropdown" finished-at="2022-02-11T23:08:49Z" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdown -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:dropdownpackage.DropdownTest@3f191845]" started-at="2022-02-11T23:08:52Z" name="closeDriver" finished-at="2022-02-11T23:08:52Z" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:filedownloadpackage.FileDownloadTest@5f049ea1]" started-at="2022-02-11T23:08:52Z" name="closeDriver" finished-at="2022-02-11T23:08:52Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:formauthenticationpackage.FormAuthenticationTest@cb0755b]" started-at="2022-02-11T23:08:52Z" name="closeDriver" finished-at="2022-02-11T23:08:52Z" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:keypressespackage.KeyPressesTest@72cc7e6f]" started-at="2022-02-11T23:08:52Z" name="closeDriver" finished-at="2022-02-11T23:08:54Z" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- dropdownpackage.DropdownTest -->
+      <class name="filedownloadpackage.FileDownloadTest">
+        <test-method signature="verifyFileDownload()[pri:0, instance:filedownloadpackage.FileDownloadTest@5f049ea1]" started-at="2022-02-11T23:08:49Z" name="verifyFileDownload" finished-at="2022-02-11T23:08:49Z" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileDownload -->
+      </class> <!-- filedownloadpackage.FileDownloadTest -->
+      <class name="formauthenticationpackage.FormAuthenticationTest">
+        <test-method signature="verifyInvalidPasswordLogin()[pri:0, instance:formauthenticationpackage.FormAuthenticationTest@cb0755b]" started-at="2022-02-11T23:08:49Z" name="verifyInvalidPasswordLogin" finished-at="2022-02-11T23:08:50Z" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPasswordLogin -->
+        <test-method signature="verifyInvalidUsernameLogin()[pri:0, instance:formauthenticationpackage.FormAuthenticationTest@cb0755b]" started-at="2022-02-11T23:08:50Z" name="verifyInvalidUsernameLogin" finished-at="2022-02-11T23:08:51Z" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsernameLogin -->
+        <test-method signature="verifyValidLogin()[pri:0, instance:formauthenticationpackage.FormAuthenticationTest@cb0755b]" started-at="2022-02-11T23:08:51Z" name="verifyValidLogin" finished-at="2022-02-11T23:08:52Z" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+      </class> <!-- formauthenticationpackage.FormAuthenticationTest -->
+      <class name="keypressespackage.KeyPressesTest">
+        <test-method signature="verifyKeyPresses()[pri:0, instance:keypressespackage.KeyPressesTest@72cc7e6f]" started-at="2022-02-11T23:08:52Z" name="verifyKeyPresses" finished-at="2022-02-11T23:08:52Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKeyPresses -->
+      </class> <!-- keypressespackage.KeyPressesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
